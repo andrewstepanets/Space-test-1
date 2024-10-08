@@ -1,7 +1,6 @@
 # Space test 1
 
 ## Instructions
-### Please don't fork this repo when you provide your answer, don't give other applicants clues!
 
 1. Render the cheapest 5 items on landing sorted by price
 2. User should be able to toggle between showing the cheapest 5 items and all items
