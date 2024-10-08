@@ -57,9 +57,9 @@ export function Test() {
         </Text>
       ) : (
         <VStack spacing={4} align='stretch'>
-          {displayData.map((item) => (
+          {displayData.map((item, index) => (
             <Flex
-              key={item.name}
+              key={`${item.name}-${Date.now()}-${index}`}
               justify='space-between'
               bg='gray.100'
               p={4}
