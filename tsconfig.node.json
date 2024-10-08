@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "composite": true,
+    "skipLibCheck": true,
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "types": ["cypress"]
+  },
+  "include": [
+    "vite.config.ts",
+    "cypress/**/*.ts",
+    "cypress/**/*.tsx",
+    "cypress.config.ts"
+  ]
+}
